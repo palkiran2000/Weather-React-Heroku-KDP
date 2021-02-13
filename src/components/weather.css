@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+
+input[type=text]{
+    padding: 10px; 
+    /* to add inner spacing */
+    margin: 10px;  
+    /* to add a margin around the input field  */
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    /* adds drop shadow */
+    border-radius:10px;
+}
+
+
+button {
+
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+  
+    /* usual styles */
+    padding:10px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    border-radius:5px;
+  
+  }
+
+  div.displayweather{
+     display: flex;
+     justify-content: center;
+     background-color: white ;
+     
+  }
+
+  form.weathercheck{
+      border: white;
+  }
+
+  h1{
+      font-size:x-large;
+      color:white;
+      background-color: #3F51B5;
+      padding: 10px;
+      margin: 10px;
+  }
